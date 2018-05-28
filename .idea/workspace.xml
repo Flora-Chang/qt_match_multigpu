@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff5d991b-7520-4e98-9e2a-38e5e68866ee" name="Default" comment="" />
+    <list default="true" id="ff5d991b-7520-4e98-9e2a-38e5e68866ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_tfrecord.py" afterPath="$PROJECT_DIR$/model_tfrecord.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/word_embedding.py" afterPath="$PROJECT_DIR$/word_embedding.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +17,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="train_1.out.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_1.out.txt">
+      <file leaf-file-name="model_tfrecord.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_tfrecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="209" column="72" lean-forward="true" selection-start-line="192" selection-start-column="8" selection-end-line="209" selection-end-column="72" />
+              <folding>
+                <element signature="e#18#41#0" expanded="true" />
+                <marker date="1527474289000" expanded="true" signature="5312:9477" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="5361:9477" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="5585:6643" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="6697:7669" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="8302:9418" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="9568:10315" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="9618:10270" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="10337:11329" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11240:11329" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11421:11777" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11819:12606" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11832:12349" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="13670:13783" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="13809:13931" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_old.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_old.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -22,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_tfrecord.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model_tfrecord.py">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="177" column="83" lean-forward="false" selection-start-line="177" selection-start-column="82" selection-end-line="177" selection-end-column="83" />
+            <state relative-caret-position="428">
+              <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_dujianguang.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_dujianguang.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="137" column="58" lean-forward="true" selection-start-line="112" selection-start-column="4" selection-end-line="137" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -90,20 +133,35 @@
         <entry file="file://$PROJECT_DIR$/word_embedding.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-797">
-              <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
-              <folding />
+              <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+              <folding>
+                <marker date="1527474289000" expanded="true" signature="11085:12800" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11185:11290" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11370:12800" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="11780:12656" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="12866:14489" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="13027:14456" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="13436:14312" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="14560:16002" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="14721:15969" ph="..." />
+                <marker date="1527474289000" expanded="true" signature="15151:15907" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/word_embedding.py" />
         <option value="$PROJECT_DIR$/model_tfrecord.py" />
+        <option value="$PROJECT_DIR$/model_dujianguang.py" />
+        <option value="$PROJECT_DIR$/model.py" />
       </list>
     </option>
   </component>
@@ -117,6 +175,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -340,16 +399,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.015662652" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13161659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.012160229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,16 +472,19 @@
     <entry file="file://$PROJECT_DIR$/word_embedding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-797">
-          <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2944">
-          <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-          <folding />
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding>
+            <marker date="1527474289000" expanded="true" signature="11085:12800" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11185:11290" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11370:12800" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11780:12656" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="12866:14489" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="13027:14456" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="13436:14312" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="14560:16002" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="14721:15969" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="15151:15907" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -443,11 +506,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="177" column="83" lean-forward="false" selection-start-line="177" selection-start-column="82" selection-end-line="177" selection-end-column="83" />
+        <state relative-caret-position="323">
+          <caret line="209" column="72" lean-forward="true" selection-start-line="192" selection-start-column="8" selection-end-line="209" selection-end-column="72" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+            <marker date="1527474289000" expanded="true" signature="5312:9477" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="5361:9477" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="5585:6643" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="6697:7669" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="8302:9418" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="9568:10315" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="9618:10270" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="10337:11329" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11240:11329" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11421:11777" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11819:12606" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="11832:12349" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="13670:13783" ph="..." />
+            <marker date="1527474289000" expanded="true" signature="13809:13931" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_dujianguang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="137" column="58" lean-forward="true" selection-start-line="112" selection-start-column="4" selection-end-line="137" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

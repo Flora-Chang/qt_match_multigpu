@@ -66,6 +66,40 @@ class Model(object):
             embedding_title = tf.nn.embedding_lookup(self.embedding_matrix, title)
             return embedding_query, embedding_title
 
+    def build_feature_local(self, query, pos_title, neg_title):
+        qa_matchs = []
+        qa_match = np.zeros((2, self.max_query_word, self.max_title_word))
+        cnt = 0
+        for q, t1, t2 in zip(query, pos_title, neg_title):
+            #qa_match = [[0 for i in range(self.max_title_word)] for j in range(self.max_query_word)]
+            for i, word_q in enumerate(q):
+                for j, word_t in enumerate(t1):
+                    if word_q == word_t and int(word_t) != 4200000 and int(word_t) != 0:
+                        qa_match[0,i,j] = 1
+            # qa_match = [[0 for i in range(self.max_title_word)] for j in range(self.max_query_word)]
+            for i, word_q in enumerate(q):
+                for j, word_t in enumerate(t2):
+                    if word_q == word_t and int(word_t) != 4200000 and int(word_t) != 0:
+                        qa_match[1,i,j] = 1
+            qa_matchs.append(qa_match)
+            cnt += 1
+        #print("build_qt_match: ", np.shape(qa_matchs))
+        return qa_matchs
+
+
+    def local_model(self, feature_local, is_training=True, reuse=False):
+        with tf.variable_scope('local_model'):
+            if reuse:
+                tf.get_variable_scope().reuse_variables()
+            features_local = tf.reshape(feature_local, [-1, self.max_query_word, self.max_title_word])
+            conv = tf.layers.conv1d(inputs=features_local, filters=self.filter_size, kernel_size=[1],
+                                    activation=tf.nn.tanh) #[?,max_query_word,1,self.filter_size]
+            conv = tf.reshape(conv, [-1,self.filter_size*self.max_query_word]) #[?,max_query_word*self.filter_size]
+            dense1 = tf.layers.dense(inputs=conv, units=self.filter_size, activation=tf.nn.tanh) #[?, self.filter_size]
+            dropout = tf.layers.dropout(inputs=dense1, rate=self.keep_prob, training=is_training) #extra add
+            dense2 = tf.layers.dense(inputs=dropout, units=self.filter_size, activation=tf.nn.tanh)
+            self.local_output = dense2
+            return self.local_output
 
     def distrib_model(self, query, title, is_training=True, reuse=False):
         with tf.variable_scope('Distrib_model'):

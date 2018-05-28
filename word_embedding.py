@@ -252,7 +252,7 @@ class Word2Vec(object):
             min_after_dequeue=5000)
 
         return  query_, pos_title_, neg_title_
-    '''
+
     def build_feature_local(self, query, title, max_query_word, max_title_word):
         query_len = min([max_query_word, len(query)])
         title_len = min([max_title_word, len(title)])
@@ -262,7 +262,6 @@ class Word2Vec(object):
                 if word_q == word_t:
                     qa_match[i,j] = 1
         return qa_match
-    '''
 
     def get_train_batch(self, file, batch_size, Qlen=20, Alen=20):
         index = 0
