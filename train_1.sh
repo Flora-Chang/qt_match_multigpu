@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 train.py --flag sigmoid --learning_rate 0.0005 --dev_set ../data/dev.txt

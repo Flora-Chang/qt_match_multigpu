@@ -1,0 +1,23 @@
+distrib_output: Tensor("emsemble_model/Distrib_model/dense_2/Tanh:0", shape=(?, 128), dtype=float32)
+embedding query Tensor("emsemble_model/Distrib_model/Embedding_layer/embedding_lookup:0", shape=(?, 20, 100), dtype=float32, device=/device:CPU:0)
+embedding title Tensor("emsemble_model/Distrib_model/distrib_match/transpose:0", shape=(?, 100, 20), dtype=float32)
+match_matrix Tensor("emsemble_model/Distrib_model/distrib_match/MatMul:0", shape=(?, 20, 20), dtype=float32)
+distrib_output: Tensor("emsemble_model_1/Distrib_model/dense_2/Tanh:0", shape=(?, 128), dtype=float32)
+embedding query Tensor("emsemble_model_1/Distrib_model/Embedding_layer/embedding_lookup:0", shape=(?, 20, 100), dtype=float32, device=/device:CPU:0)
+embedding title Tensor("emsemble_model_1/Distrib_model/distrib_match/transpose:0", shape=(?, 100, 20), dtype=float32)
+match_matrix Tensor("emsemble_model_1/Distrib_model/distrib_match/MatMul:0", shape=(?, 20, 20), dtype=float32)
+training: 
+build loss: 
+inited sess
+epoch:  0
+steps:  0
+on training set: 
+batch_loss:　 0.000690791964531
+on validation set: 
+eval:　
+=====================
+variables initialized
+data loaded: 
+accuracy:  0.48039
+=========================
+accuracy:  0.48039

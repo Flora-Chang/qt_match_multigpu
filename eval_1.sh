@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python3 eval.py --flag sigmoid --learning_rate 0.0005 --dev_set ../data/querytitle1w.test.txt
